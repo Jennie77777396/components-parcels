@@ -115,8 +115,8 @@ importers:
         specifier: ^4.10.0
         version: 4.10.0(webpack-dev-server@4.15.2)(webpack@5.99.5)
       webpack-config-single-spa-react-ts:
-        specifier: ^8.0.0
-        version: 8.0.0(@babel/core@7.26.10)(typescript@4.9.5)(webpack@5.99.5)
+        specifier: ^6.0.5
+        version: 6.0.5(@babel/core@7.26.10)(typescript@4.9.5)(webpack@5.99.5)
       webpack-dev-server:
         specifier: ^4.0.0
         version: 4.15.2(webpack-cli@4.10.0)(webpack@5.99.5)
@@ -3394,9 +3394,6 @@ packages:
   single-spa@5.9.5:
     resolution: {integrity: sha512-9SQdmsyz4HSP+3gs6PJzhkaMEg+6zTlu9oxIghnwUX3eq+ajq4ft5egl0iyR55LAmO/UwvU8NgIWs/ZyQMa6dw==}
 
-  single-spa@7.0.0-beta.3:
-    resolution: {integrity: sha512-uvL704bNHBp/uQ/HZL6KteXVoFCpfpDfBw9s5KCUO9kysoUZHhpEg9SColA9iVjXPyBeR2bEDbKDdXeU98onHw==}
-
   sirv@2.0.4:
     resolution: {integrity: sha512-94Bdh3cC2PKrbgSOUqTiGPWVZeSiXfKOVZNJniWoqrWrRkB1CJzBU3NEbiTsPcYy1lDsANA/THzS+9WBiy5nfQ==}
     engines: {node: '>= 10'}
@@ -3447,8 +3444,8 @@ packages:
     resolution: {integrity: sha512-XlkWvfIm6RmsWtNJx+uqtKLS8eqFbxUg0ZzLXqY0caEy9l7hruX8IpiDnjsLavoBgqCCR71TqWO8MaXYheJ3RQ==}
     engines: {node: '>=10'}
 
-  standalone-single-spa-webpack-plugin@6.0.0:
-    resolution: {integrity: sha512-QosjA5SWk7Sy0CSqIjLem7j5fe24xhsAqOs96i6x0zr6a1WrMJahZtDlNcx+9uaS77StbTaScKJeSRJN/vfnpg==}
+  standalone-single-spa-webpack-plugin@4.0.0:
+    resolution: {integrity: sha512-Gp6feJ5nNeHDayevTMmwDDi51wQxVPLV56Cwn4QrN0nAkveeTbGnJu7tObpO0lq7wUxhEjgmdwdwE9woyiCxbQ==}
     engines: {node: '>= 8.3.0'}
     peerDependencies:
       html-webpack-plugin: '*'
@@ -3795,19 +3792,19 @@ packages:
       webpack-dev-server:
         optional: true
 
-  webpack-config-single-spa-react-ts@8.0.0:
-    resolution: {integrity: sha512-qUKHwfu0l5CPu+wTODyV9x8yNs9JD8XDBBANFjzoTbCg5AXa62Ot2kbW2nwNWorUaKPOMWd/RSwNAp87KZLGdA==}
+  webpack-config-single-spa-react-ts@6.0.5:
+    resolution: {integrity: sha512-8btoRBKz8SuGLij2YaFh6TfAoY5+KJB6WgUgg0b2GdI9Vn48nbYtc3GJ7h95hYAiCReZZtI+7e+TzA+ui3JDug==}
 
-  webpack-config-single-spa-react@8.0.0:
-    resolution: {integrity: sha512-SzOvwtFEflnNSjf9f585mKgWDocxsr1nx8EP8pprkbc2+41z6fK8Db1jHlNVJMeCdYK1LK7k/DdslR5WPr4/Iw==}
+  webpack-config-single-spa-react@7.0.5:
+    resolution: {integrity: sha512-JdwavPdmDBFlumMaB77ntiipBRbMCZ+8/1pEoZMQR9HMiqnVtZAIW+LPQm0fuMOoCOss4K+b/qk7Cj3fjRhNWQ==}
 
-  webpack-config-single-spa-ts@8.0.0:
-    resolution: {integrity: sha512-gfG6bExiAc+KpIGaHdZK6PEAJW+CHRzVvqdDecYs81wFt4FlIgIuDa3RxAGxUu/y5Uao8uARqpjND27+tFJT/A==}
+  webpack-config-single-spa-ts@6.0.5:
+    resolution: {integrity: sha512-j7KzPPdco4TduxtFgQmqO72cG8RIm8mcEr0yV6zdw0FUIrs9ppNPXTPR3U9HbD9RZJn8SXtMX2tOPDP7gYmf/A==}
     peerDependencies:
       typescript: '>=4'
 
-  webpack-config-single-spa@8.0.0:
-    resolution: {integrity: sha512-e3+zCLIQU2gPYW7OmMP1Nc5lgreea8txeUQ7t7yXxHyvLCuWY2fDpDUwKOey0fvyWdzqJavZTX+F/LwnAxJQKQ==}
+  webpack-config-single-spa@7.0.5:
+    resolution: {integrity: sha512-BCckdGf/QpNKozA1Xt9THUA9M/8xIVIkv9bsGJtd9aOYprRrkxx4x/0l84wN9HkL35MgHpwZn1RYVyVDTp+36A==}
 
   webpack-dev-middleware@5.3.4:
     resolution: {integrity: sha512-BVdTqhhs+0IfoeAf7EoH5WE+exCmqGerHfDM0IL096Px60Tq2Mn9MAbnaGUe6HiMa41KMCYF19gyzZmBcq/o4Q==}
@@ -7976,8 +7973,6 @@ snapshots:
 
   single-spa@5.9.5: {}
 
-  single-spa@7.0.0-beta.3: {}
-
   sirv@2.0.4:
     dependencies:
       '@polka/url': 1.0.0-next.29
@@ -8040,10 +8035,9 @@ snapshots:
     dependencies:
       escape-string-regexp: 2.0.0
 
-  standalone-single-spa-webpack-plugin@6.0.0(html-webpack-plugin@5.6.3(webpack@5.99.5))(webpack@5.99.5):
+  standalone-single-spa-webpack-plugin@4.0.0(html-webpack-plugin@5.6.3(webpack@5.99.5))(webpack@5.99.5):
     dependencies:
       html-webpack-plugin: 5.6.3(webpack@5.99.5)
-      single-spa: 7.0.0-beta.3
       webpack: 5.99.5(webpack-cli@4.10.0)
 
   statuses@1.5.0: {}
@@ -8387,10 +8381,10 @@ snapshots:
     optionalDependencies:
       webpack-dev-server: 4.15.2(webpack-cli@4.10.0)(webpack@5.99.5)
 
-  webpack-config-single-spa-react-ts@8.0.0(@babel/core@7.26.10)(typescript@4.9.5)(webpack@5.99.5):
+  webpack-config-single-spa-react-ts@6.0.5(@babel/core@7.26.10)(typescript@4.9.5)(webpack@5.99.5):
     dependencies:
-      webpack-config-single-spa-react: 8.0.0(@babel/core@7.26.10)(webpack@5.99.5)
-      webpack-config-single-spa-ts: 8.0.0(@babel/core@7.26.10)(typescript@4.9.5)(webpack@5.99.5)
+      webpack-config-single-spa-react: 7.0.5(@babel/core@7.26.10)(webpack@5.99.5)
+      webpack-config-single-spa-ts: 6.0.5(@babel/core@7.26.10)(typescript@4.9.5)(webpack@5.99.5)
     transitivePeerDependencies:
       - '@babel/core'
       - '@rspack/core'
@@ -8399,9 +8393,9 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  webpack-config-single-spa-react@8.0.0(@babel/core@7.26.10)(webpack@5.99.5):
+  webpack-config-single-spa-react@7.0.5(@babel/core@7.26.10)(webpack@5.99.5):
     dependencies:
-      webpack-config-single-spa: 8.0.0(@babel/core@7.26.10)(webpack@5.99.5)
+      webpack-config-single-spa: 7.0.5(@babel/core@7.26.10)(webpack@5.99.5)
     transitivePeerDependencies:
       - '@babel/core'
       - '@rspack/core'
@@ -8409,11 +8403,11 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  webpack-config-single-spa-ts@8.0.0(@babel/core@7.26.10)(typescript@4.9.5)(webpack@5.99.5):
+  webpack-config-single-spa-ts@6.0.5(@babel/core@7.26.10)(typescript@4.9.5)(webpack@5.99.5):
     dependencies:
       fork-ts-checker-webpack-plugin: 8.0.0(typescript@4.9.5)(webpack@5.99.5)
       typescript: 4.9.5
-      webpack-config-single-spa: 8.0.0(@babel/core@7.26.10)(webpack@5.99.5)
+      webpack-config-single-spa: 7.0.5(@babel/core@7.26.10)(webpack@5.99.5)
       webpack-merge: 5.10.0
     transitivePeerDependencies:
       - '@babel/core'
@@ -8422,13 +8416,13 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  webpack-config-single-spa@8.0.0(@babel/core@7.26.10)(webpack@5.99.5):
+  webpack-config-single-spa@7.0.5(@babel/core@7.26.10)(webpack@5.99.5):
     dependencies:
       babel-loader: 8.4.1(@babel/core@7.26.10)(webpack@5.99.5)
       css-loader: 6.11.0(webpack@5.99.5)
       html-webpack-plugin: 5.6.3(webpack@5.99.5)
       import-map-externals-webpack-plugin: 1.0.0
-      standalone-single-spa-webpack-plugin: 6.0.0(html-webpack-plugin@5.6.3(webpack@5.99.5))(webpack@5.99.5)
+      standalone-single-spa-webpack-plugin: 4.0.0(html-webpack-plugin@5.6.3(webpack@5.99.5))(webpack@5.99.5)
       style-loader: 3.3.4(webpack@5.99.5)
       systemjs-webpack-interop: 2.3.7(webpack@5.99.5)
       webpack-bundle-analyzer: 4.10.2
