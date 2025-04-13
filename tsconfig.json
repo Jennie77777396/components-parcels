@@ -4,7 +4,7 @@
     "jsx": "react-jsx",
     "declarationDir": "dist"
   },
-  "files": ["src/goodleap-components-parcels.tsx"],
+  "files": ["src/goodluckjt-components-parcels.tsx"],
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test*"]
 }
